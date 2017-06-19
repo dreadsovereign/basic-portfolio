@@ -1,42 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
   <meta charset="utf-8">
   <title>Basic Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
 </head>
 
   <body>
+     <header> 
+        <div class="header-objects">
+          <h1>Kamran Ahmad</h1>
+              <ul>
+                <li><a href="index.html">About</a>
+                <li><a href="portfolio.html">Portfolio</a>
+                <li><a href="contact.html"> Contact</a>
+              </ul> 
+        </div>
+      </header>
 
-    <header>
+    <div class="container">  
+            
+        <section class="bio">
+          <h2>About Me</h2>
+          
+          <hr>
+          
+          <img class="bio-image" src="http://i.imgur.com/6MK7l1j.jpg" alt="Kamran's Profile Picture">
 
-      <div class="name">
-        <h1>Kamran Ahmad</h1>
-      </div>
+          <p>Hello. I'm Kamran. I am originally from Thousand Oaks, California, and I moved to Durham, North Carolina, in 2014. I have a bachelor's degree in Sociology from the University of California, Davis (Go Aggies!). My background is mostly in Quality Assurance, but only on the manual side. I am hoping this program will help me learn some automation QA, though, if web design is something I really like, I might stick with it.</p>
 
-      <div class="top-menu-links">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </div>
-
-    </header>
-
-    <h1>About Me</h1>
-
-    <p>Hello. I'm Kamran. I am originally from Thousand Oaks, California, and I moved to Durham, North Carolina, in 2014. I have a bachelor's degree in Sociology from the University of California, Davis (Go Aggies!). I originally wanted to study law, but I was talked out of it. My background is mostly in Quality Assurance, but only on the manual side. I am hoping this program will help me learn some automation QA, though, if web design (front end and back end) is something I really like, I might stick with it.</p>
-
-    <p>My hobbies include playing the drums, reading, video games, anime, hiking, building computers and tech in general. I've recently started getting into board games with some friends.</p>
-    
-    <h2>Connect with Me</h2>
-    <a href="https://github.com/dreadsovereign" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/kahmad2/" target="_blank">LinkedIn</a>
-    <a href="https://medium.com/@narmak182" target="_blank">Medium</a>
-    <a href="https://www.meetup.com/members/229101434/" target="_blank">Meetup</a>
-    <a href="https://stackoverflow.com/users/8067374/kam182" target="_blank">Stack Overflow</a>
-
+          <p>My hobbies include playing the drums, reading, video games, anime, hiking, building computers and tech in general. I've recently started getting into board games with some friends.</p>
+        </section>
+        
+        <section class="connect">
+          <h3>Connect with Me</h3>
+          <hr>
+          <a href="https://github.com/dreadsovereign" target="_blank"><img src="assets/images/githublogo.png" alt="GitHub"></a>
+          <a href="https://www.linkedin.com/in/kahmad2/" target="_blank"><img src="assets/images/linkedinlogo.png" alt="LinkedIn"></a>
+          <a href="https://medium.com/@narmak182" target="_blank"><img src="assets/images/mediumlogo.png" alt="Medium"></a>
+          <a href="https://www.meetup.com/members/229101434/" target="_blank"><img src="assets/images/meetuplogo.png" alt="Meetup"></a>
+          <a href="https://stackoverflow.com/users/8067374/kam182" target="_blank"><img src="assets/images/stackoverflowlogo.png" alt="Stack Overflow"></a>
+        </section>
+    </div>
     <footer>
-      &copy Copyright 2017 Kamran Ahmad
+        <div class="copyright">
+          &copy Copyright 2017 Kamran Ahmad
+        </div>
     </footer>
-
   </body>
 </html>
