@@ -75,6 +75,8 @@ input::placeholder {
 
 a {
   color: #777777;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 a:link {
